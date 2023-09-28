@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HolyCarShop</title>
+</head>
+<body style="background-color: lightblue;">
+
+    <header>
+       <h1>  Willkommen zu unserem HolyCarShop </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#angebote">Angebote</a></li>
+            <li><a href="#modelle">Modelle</a></li>
+            <li><a href="#verkäufer">Verkäufer</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="angebote">
+        <h2>Angebote</h2>
+        <p>Entdecken Sie unsere aktuellen Autoangebote. Wir bieten eine vielfältige Auswahl an Fahrzeugen für jeden Geschmack und Bedarf.</p>
+
+        <img src="https://imgs.search.brave.com/4P4mwrr2SMwUgrOAkmg8hc8evD7gHd1dF1fMDTUw_-Q/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTI0/ODEwOTU4L3Bob3Rv/L3ByZXNlbnRhdGlv/bi1vZi10aGUtZmVy/cmFyaS1sYWZlcnJh/cmktYXQtdGhlLTIw/MTMtZ2VuZXZhLW1v/dG9yLXNob3cuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPXhu/ZWc4c0tmaWJnd3BQ/bVcwblhTc1p1TW1i/cWdacm9oVjVSZjYx/SGZaYVU9
+        ">
+
+    </section>
+
+    <section id="modelle">
+        <h2>Modelle</h2>
+
+        <p>Unsere Fahrzeugpalette umfasst verschiedene Modelle:
+            <ul>
+                <li>SUV</li>
+                <li>Kleinwagen</li>
+                <li>Limousinen</li>
+                <li>Cabrios</li>
+                <li>Kombis</li>
+                <li>Elektroautos</li>
+                <li>Hybridfahrzeuge</li>
+                <li>Transporter</li>
+                <li>Oldtimer</li>
+                <li><a href="https://de.wikipedia.org/wiki/Sportwagen">Sportwagen</a></li>
+            </ul>
+        </p>
+    </section>
+
+    <section id="verkäufer">
+        <h2>Verkäufer</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Kontakt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3AAIF</td>
+                    <td>Omar Elzanary</td>
+                    <td>omarelzanary99@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>3AAIF</td>
+                    <td>Elzanary Omar</td>
+                    <td>ELZ220495@spengergasse.at</td>
+                </tr>
+            
+            </tbody>
+            <tfoot>
+                Unsere engagierten Verkäufer stehen Ihnen für Fragen zur Verfügung.
+            </tfoot>
+        </table>
+
+    </section>
+
+    <footer id="kontakt">
+        <h2>Kontakt</h2>
+        <form>
+            Name: <input type="text">
+            Email: <input type="text">
+            Ich bin kein Roboter: <input type="checkbox">
+            <button>Abschicken</button>
+
+            <script>
+                const btn = document.querySelector("button");
+
+                btn.addEventListener('click', function() {
+                    alert("Sie wurden in den Newsletter-Verteiler aufgenommen!");
+                });
+            </script>
+        </form>
+    </footer>
+</body>
+</html>
